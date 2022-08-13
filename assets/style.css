@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 
 :root {
-  --red: #abc4ff;
+  --skyblue: #abc4ff;
 }
 
 * {
@@ -17,7 +17,7 @@
 }
 
 *::selection {
-  background: var(--red);
+  background: var(--skyblue);
   color: #fff;
 }
 
@@ -40,19 +40,19 @@ section {
   text-align: center;
   font-size: 3.5rem;
   padding: 1rem;
-  /* color: #666; */
-  color: var(--red);
+  /* color: #555; */
+  color: var(--skyblue);
 }
 
 .heading span {
-  color: var(--red);
+  color: var(--skyblue);
 }
 
 .btn {
   display: inline-block;
   padding: 0.8rem 3rem;
-  border: 0.2rem solid var(--red);
-  color: var(--red);
+  border: 0.2rem solid var(--skyblue);
+  color: var(--skyblue);
   cursor: pointer;
   font-size: 1.7rem;
   border-radius: 0.5rem;
@@ -69,7 +69,7 @@ section {
   right: 0;
   width: 0%;
   height: 100%;
-  background: var(--red);
+  background: var(--skyblue);
   transition: 0.3s linear;
   z-index: -1;
 }
@@ -121,8 +121,8 @@ header .navbar a:hover {
 #menu-bar {
   font-size: 3rem;
   cursor: pointer;
-  color: #666;
-  border: 0.1rem solid #666;
+  color: #555;
+  border: 0.1rem solid #555;
   border-radius: 0.3rem;
   padding: 0.5rem 1.5rem;
   display: none;
@@ -174,8 +174,9 @@ header .navbar a:hover {
 
 .home .content p {
   font-size: 1.7rem;
-  color: #666;
+  color: #555;
   padding: 1rem 0;
+  text-align: justify;
 }
 
 .project .box-container {
@@ -188,7 +189,7 @@ header .navbar a:hover {
   flex: 1 1 30rem;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   border: 0.1rem solid rgba(0, 0, 0, 0.3);
   cursor: pointer;
   border-radius: 0.5rem;
@@ -200,12 +201,6 @@ header .navbar a:hover {
   padding: 2rem;
 }
 
-.project .box-container .box .content i {
-  font-size: 2.5rem;
-  color: #65c18c;
-  margin: 1.5rem 0;
-}
-
 .project .box-container .box .content h3 {
   font-size: 2.5rem;
   color: black;
@@ -213,8 +208,10 @@ header .navbar a:hover {
 
 .project .box-container .box .content p {
   font-size: 1.6rem;
-  color: #666;
+  color: #555;
   padding: 1rem 0;
+  text-align: justify;
+  font-size: 12px;
 }
 
 .project .box-container .box:hover .image {
@@ -261,6 +258,7 @@ header .navbar a:hover {
 
 footer {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 footer .share {
@@ -272,7 +270,7 @@ footer .share {
 
 footer .credit {
   padding: 2.5rem 1rem;
-  color: var(--red);
+  color: var(--skyblue);
   font-weight: normal;
   font-size: 2rem;
 }
@@ -282,7 +280,7 @@ footer .credit i {
 }
 
 footer .credit span {
-  color: var(--red);
+  color: var(--skyblue);
 }
 
 #scroll-top {
@@ -291,7 +289,7 @@ footer .credit span {
   right: 2rem;
   padding: 0.5rem 1.5rem;
   font-size: 4rem;
-  background: var(--red);
+  background: var(--skyblue);
   color: #fff;
   border-radius: 0.5rem;
   transition: 1s linear;
@@ -342,7 +340,7 @@ footer .credit span {
     padding: 1.5rem;
     display: block;
     border: 0.2rem solid rgba(0, 0, 0, 0.1);
-    border-left: 0.5rem solid var(--red);
+    border-left: 0.5rem solid var(--skyblue);
     background: #fff;
   }
 }
